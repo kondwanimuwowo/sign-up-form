@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Sign-Up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main-container">
+    <div class="left">
+      <div class="logo">
+        <img class="logo-image" src="/images/odin-lined.png" alt="The Odin Project Logo">
+        <h1 class="logo-text">ODIN</h1>
+      </div>
+    </div>
+    <div class="right">
+      <header>
+        <h3>This is not a real online service. You know you need something like this in your life to help you realise your deepest dreams.</h3>
+        <h3>Sign-up now to get started!</h3>
+        <h3>You <em>know </em> you want to.</h3>
+      </header>
+      <section>
+        <form action="#" method="post">
+          <div class="form">
+            <div class="form-one">
+              <h3>Let's do this!</h3>
+              <div class="names">
+                  <div class="name">
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" name="first-name" id="first-name" required>
+                  </div>
+                  <div class="name">
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" name="last-name" id="last-name" required>
+                  </div>
+              </div>
+              <div class="contacts">
+                  <div class="contact">
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email" required>
+                  </div>
+                  <div class="contact">
+                    <label for="phone-number">PHONE NUMBER</label>
+                    <input type="tel" name="phone-number" id="phone-number">
+                  </div>
+              </div>
+              <div class="passwords">
+                  <div class="password">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="password" id="password" minlength="8" maxlength="16" required>
+                  </div>
+                  <div class="password">
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <input type="password" name="confirm-password" id="confirm-password" minlength="8" maxlength="16" required>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <button type="submit">Create Account</button>
+          <p class="link">Already have an account? <a href="#">Log in</a></p>
+        </form>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
