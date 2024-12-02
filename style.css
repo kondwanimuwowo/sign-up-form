@@ -42,7 +42,7 @@ header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("/images/halie.jpg")
+  background-image: url("../images/halie.jpg")
 }
 
 .logo {
